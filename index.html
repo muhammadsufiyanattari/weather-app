@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="boostrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+                 <!-- main container -->
+    <div class="container" id="mainBox">
+        <h1 class="mainh1" style="text-align: center;">Weather App</h1>
+                     <!-- main row -->
+
+      <div class="row">
+                    <!-- main col -1 -->
+        <div class="maincol1 col col-lg-6 col-md-12 col-sm-12" >
+          <form action="" id="form">
+            <div  id="searchInp">
+              <input type="text" name="" id="" placeholder=" Enter Your City Name" />
+            </div>
+            
+            <div id="searchBtn">
+                <button>Search</button>
+            </div>
+          </form>
+          <h3 id="cityName">Karachi <span><img style="color: white;" width="30px" src="img/location.png" alt=""></span></h3>
+        </div>
+
+
+                        <!-- main col -2 -->
+        <div class=" maincol2  col col-lg-6 col-md-12 col-sm-12 main2" >
+            <div class="weather ">
+                <div class="cloudimg">
+                <img width="150px" src="img/1530391_weather_clouds_sun_sunny_icon.png" alt="suuny-Cloud">
+            </div>
+                <h2 class="temp">20 <span>°</span>C</h2>
+                <div class="details  row">
+                          <!-- local col-1 -->
+             <div class=" lc1 col  col-lg-6 col-md-6 col-sm-12">
+             <img width="30px" src="img/humidity.png" alt="humidity">
+             <div>
+           <p id="humidity">50%</p>
+           <p>Humidity</p>
+    </div>
+</div>
+                             <!-- local col-2-->
+    <div class="lc2 col  col-lg-6 col-md-6 col-sm-12">
+        <img width="30px" src="img/wind.png" alt="wind">
+              <div>
+                  <p id="wind">12 km</p>
+                  <p>Wind</p>
+                </div>
+    </div>
+                
+            
+            </div>
+    </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

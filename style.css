@@ -1,0 +1,182 @@
+*{
+    /* background: rgb(12,34,18);
+background: linear-gradient(90deg, rgba(12,34,18,1) 19%, rgba(163,115,167,1) 97%); */
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background: rgb(12,34,18);
+background: linear-gradient(90deg, rgba(12,34,18,1) 19%, rgba(163,115,167,1) 97%);
+}
+
+/* <!-- main container --> */
+.container{
+    margin-top: 100px;
+    /* background-color: antiquewhite; */
+     /* background-color: blue; */
+     /* background: rgb(12,34,18);
+    background: linear-gradient(90deg, rgba(12,34,18,1) 19%, rgba(163,115,167,1) 97%);  */
+    background: rgb(163,115,167);
+background: radial-gradient(circle, rgba(163,115,167,1) 19%, rgba(142,104,146,1) 46%, rgba(12,34,18,1) 99%);
+border-radius: 20px ;
+}
+.mainh1{
+    -webkit-text-stroke: 1px rgb(164, 127, 156);
+    color: rgb(67, 52, 64);
+    text-shadow:
+        /* 3px 3px 0 white,
+      -1px -1px 0 white,  
+       1px -1px 0 white,
+       -1px 1px 0 white,
+        1px 1px 0 white; */
+
+
+    color: rgb(60, 58, 58);
+    /* color: rgb(163,115,167); */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-shadow: 0px -3px 9px rgba(0,0,0,0.79);
+    /* color: radial-gradient(circle, rgba(163,115,167,1) 19%, rgba(142,104,146,1) 46%, rgba(12,34,18,1) 99%); */
+}
+.row{
+    /* background-color: aqua; */
+    
+}
+.maincol1{
+    background: rgb(163,115,167);
+background: radial-gradient(circle, rgba(163,115,167,1) 10%, rgba(142,104,146,1) 38%, rgba(12,34,18,1) 99%); 
+}
+.maincol2{
+    background: rgb(163,115,167);
+    background: radial-gradient(circle, rgba(163,115,167,1) 10%, rgba(142,104,146,1) 38%, rgba(12,34,18,1) 99%);
+}
+
+             /* <!-- main col -1 --> */
+
+
+
+#form{
+    margin-top: 100px;
+    text-align: center;
+    /* background-color: chartreuse; */
+}
+#searchInp {
+    
+ 
+    margin: 10px 0px;
+
+    /* background-color: azure; */
+}
+#searchInp input{
+    background: rgb(12,34,18);
+    background: linear-gradient(90deg, rgba(12,34,18,1) 19%, rgba(163,115,167,1) 97%); 
+color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+    /* background-color: chocolate; */
+
+}
+#searchInp input:focus{
+    border: 2px solid black;
+}
+#searchInp input::placeholder{
+
+    
+    color: rgb(255, 252, 252);
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+#searchBtn {
+    margin: 15px 0px;
+    /* background-color: crimson; */
+}
+#searchBtn button{
+    background: rgb(12,34,18);
+    background: linear-gradient(90deg, rgba(12,34,18,1) 19%, rgba(163,115,167,1) 97%); 
+    color: white;
+outline: none;
+border: none;
+border-radius: 10px;
+padding: 5px 30px;
+font-size: 15px;
+font-weight: bold;
+}
+#cityName{text-align: center;
+    margin: 10px 0px;
+    font-size: 35px;
+    color: white;
+}
+/* <!-- end  main col -1 --> */
+
+
+
+/* <!-- main col -2-->  */
+
+.main2{
+     /* background-color: blue; */
+     /* background: linear-gradient(90deg, rgba(163,115,167,1) 44%, rgba(12,34,18,1) 93%);   background: rgb(163,115,167); */
+  
+
+}
+.weather{
+    text-align: center;
+    margin: 0px !important;
+    /* background-color: bisque; */
+    /* background: rgb(12,34,18);
+    background: linear-gradient(90deg, rgba(12,34,18,1) 19%, rgba(163,115,167,1) 97%);  */
+}
+.cloudimg img{
+    /* background-color: aqua; */
+    width: 170px;
+}
+.temp{
+    color: white;
+}
+.temp span{
+    color: black;
+}
+.lc1,.lc2 {
+    /* background-color: aqua !important; */
+    
+    margin-top: 10px;
+    color: white;
+}
+.lc1 img{margin: 10px;
+    width: 50px;
+    
+    /* background-color: rebeccapurple; */
+}
+.lc2 img{
+    margin: 10px;
+    width: 50px;
+    /* background-color: rebeccapurple; */
+}
+.lc1 p{
+font-size: 15px;
+font-weight: bold;
+}
+.lc2 p{
+    font-size: 15px;
+    font-weight: bold;
+}
+#humidity{
+    font-size: 20px;
+}
+#wind{
+    font-size: 20px;
+}
+.lc1{
+    /* background-color: blue; */
+    /* background: rgb(163,115,167);
+    background: linear-gradient(90deg, rgba(163,115,167,1) 44%, rgba(12,34,18,1) 93%);
+    */} 
+.lc2{
+    /* background-color: blueviolet; */
+    /* background: rgb(163,115,167);
+    background: linear-gradient(90deg, rgba(163,115,167,1) 44%, rgba(12,34,18,1) 93%);  */
+}
