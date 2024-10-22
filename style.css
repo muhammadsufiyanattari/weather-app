@@ -19,6 +19,7 @@ background: linear-gradient(90deg, rgba(12,34,18,1) 19%, rgba(163,115,167,1) 97%
 
 /* <!-- main container --> */
 .container{
+    
     width: 400px;
     /* height: 100vh; */
     /* background-color: antiquewhite; */
@@ -34,7 +35,8 @@ background: radial-gradient(circle, rgba(163,115,167,1) 19%, rgba(142,104,146,1)
 border-radius: 20px ; */
 }
 .mainh1{
-    
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
     -webkit-text-stroke: 1px rgb(164, 127, 156);
     color: rgb(67, 52, 64);
     text-shadow:
@@ -198,9 +200,9 @@ font-weight: bold;
     /* background: rgb(163,115,167);
     background: linear-gradient(90deg, rgba(163,115,167,1) 44%, rgba(12,34,18,1) 93%);  */
 }
-#display{
-    display: none;
-}
+/* #display{
+    /* display: none; */
+/* } */ */
 #mainBox{
     /* margin-top: 100px !important; */
 }
