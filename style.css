@@ -6,15 +6,20 @@ background: linear-gradient(90deg, rgba(12,34,18,1) 19%, rgba(163,115,167,1) 97%
     
 
 }
-body{
+body{ 
+    background-image: url(img/weather.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     margin:100px;
     /* padding: 0px; */
     overflow: hidden;
-    background: rgb(12,34,18);
-background: linear-gradient(90deg, rgba(12,34,18,1) 19%, rgba(163,115,167,1) 97%);
+    /* background: rgb(12,34,18);
+background: linear-gradient(90deg, rgba(12,34,18,1) 19%, rgba(163,115,167,1) 97%); */
 }
 
 /* <!-- main container --> */
@@ -37,21 +42,21 @@ border-radius: 20px ; */
 .mainh1{
     margin-top: 20px !important;
     margin-bottom: 10px !important;
-    -webkit-text-stroke: 1px rgb(164, 127, 156);
-    color: rgb(67, 52, 64);
-    text-shadow:
+    -webkit-text-stroke: 1px rgb(29, 29, 29);
+    color: rgb(35, 155, 143);
+    /* text-shadow: */
         /* 3px 3px 0 white,
       -1px -1px 0 white,  
        1px -1px 0 white,
        -1px 1px 0 white,
         1px 1px 0 white; */
+font-size: 50px;
 
-
-    color: rgb(60, 58, 58);
+    /* color: rgb(60, 58, 58); */
     /* color: rgb(163,115,167); */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    text-shadow: 0px -3px 9px rgba(0,0,0,0.79);
+    font-weight: 900;
+    /* text-shadow: 0px -3px 9px rgba(0,0,0,0.79); */
     /* color: radial-gradient(circle, rgba(163,115,167,1) 19%, rgba(142,104,146,1) 46%, rgba(12,34,18,1) 99%); */
 }
 
@@ -61,12 +66,14 @@ border-radius: 20px ; */
     
     /* width: 500px; */
     border-radius: 20px;
-    background: rgb(163,115,167);
-background: radial-gradient(circle, rgba(163,115,167,1) 10%, rgba(142,104,146,1) 38%, rgba(12,34,18,1) 99%); 
+    background-color: rgb(0, 0, 0,0.1);
+    
+    /* background: rgb(163,115,167); */
+/* background: radial-gradient(circle, rgba(163,115,167,1) 10%, rgba(142,104,146,1) 38%, rgba(12,34,18,1) 99%);  */
 }
 .maincol2{
-    background: rgb(163,115,167);
-    background: radial-gradient(circle, rgba(163,115,167,1) 10%, rgba(142,104,146,1) 38%, rgba(12,34,18,1) 99%);
+    /* background: rgb(163,115,167);
+    background: radial-gradient(circle, rgba(163,115,167,1) 10%, rgba(142,104,146,1) 38%, rgba(12,34,18,1) 99%); */
 }
 
              /* <!-- main col -1 --> */
@@ -89,14 +96,16 @@ background: radial-gradient(circle, rgba(163,115,167,1) 10%, rgba(142,104,146,1)
     /* background-color: azure; */
 }
 #searchInp input{margin-top: 20px !important;
-    background: rgb(12,34,18);
-    background: linear-gradient(90deg, rgba(12,34,18,1) 19%, rgba(163,115,167,1) 97%); 
+    background-color: rgb(0, 0, 0,0.2);
+    /* background: rgb(29, 125, 117);
+    background: linear-gradient(90deg, rgb(171, 221, 224) 19%, rgb(56, 188, 197) 97%);  */
 color: white;
     outline: none;
     border: none;
     border-radius: 10px;
     padding: 5px;
-    width: 200px;
+    width: 300px;
+    height: 50px;
     /* background-color: chocolate; */
 
 }
@@ -106,8 +115,8 @@ color: white;
 #searchInp input::placeholder{
 
     
-    color: rgb(255, 252, 252);
-    font-weight: 500;
+    color: black(255, 252, 252);
+    font-weight: 600;
     font-size: 15px;
     
 }
@@ -116,20 +125,21 @@ color: white;
     /* background-color: crimson; */
 }
 #searchBtn button{
-    background: rgb(12,34,18);
-    background: linear-gradient(90deg, rgba(12,34,18,1) 19%, rgba(163,115,167,1) 97%); 
-    color: white;
+    /* background: rgb(12,34,18);
+    background: linear-gradient(90deg, rgba(12,34,18,1) 19%, rgba(163,115,167,1) 97%);  */
+    background-color: rgb(0, 0, 0,0.3);
+    color: rgb(37, 38, 39);
 outline: none;
 border: none;
 border-radius: 10px;
-padding: 5px 30px;
-font-size: 15px;
+padding: 10px 30px;
+font-size: 18px;
 font-weight: bold;
 }
 #cityName{text-align: center;
     margin: 10px 0px;
     font-size: 35px;
-    color: white;
+    color: rgb(26, 25, 25);
 }
 /* <!-- end  main col -1 --> */
 
@@ -155,7 +165,7 @@ font-weight: bold;
     width: 200px;
 }
 .temp{
-    color: white;
+    color: black;
 }
 .temp span{
     color: black;
@@ -164,7 +174,7 @@ font-weight: bold;
     /* background-color: aqua !important; */
     
     margin-top: 10px;
-    color: white;
+    color: black;
 }
 .lc1 img{margin: 10px;
     width: 50px;
